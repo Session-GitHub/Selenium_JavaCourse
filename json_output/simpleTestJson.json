@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-08T13:36:41.551Z",
+        "line": 3,
+        "name": "Enter credentials",
+        "description": "",
+        "id": "midtrans-feature;enter-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7335229800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user initializing the chrome browser SC",
+            "match": {
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_initializing_the_chrome_browser_SC()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8660441200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to \"https://demo.midtrans.com\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demo.midtrans.com",
+                  "offset": 18
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_navigate_to_SC(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3173405300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user verify the logo SC",
+            "match": {
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_verify_the_logo_SC()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4095241400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on BUY NOW Button SC",
+            "match": {
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clicks_on_BUY_NOW_Button_SC()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4061223500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify shopping cart popup SC",
+            "match": {
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_verify_shopping_cart_popup_SC()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2301743200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clear the name text field and enter the name as \"Piyush Verma\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Piyush Verma",
+                  "offset": 54
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_name_text_field_and_enter_the_name_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2186806600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clear the email text field and enter the email as \"piyush@demo.com\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "piyush@demo.com",
+                  "offset": 56
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_email_text_field_and_enter_the_email_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2160881600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clear the phoneNo text field and enter the phoneNo as \"1234567890\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234567890",
+                  "offset": 60
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_phoneNo_text_field_and_enter_the_phoneNo_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149827400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clear the city city text field and enter the city as \"Meerut\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Meerut",
+                  "offset": 59
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_city_city_text_field_and_enter_the_city_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180213500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clear the address text field and enter the address as \"Shastri Nagar, Meerut\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shastri Nagar, Meerut",
+                  "offset": 60
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_address_text_field_and_enter_the_address_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2136899200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clear the pincode text fields and enter the pincode as \"3482422\" SC",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3482422",
+                  "offset": 61
+                }
+              ],
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_clear_the_pincode_text_fields_and_enter_the_pincode_as_SC(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 826041000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user closes the chrome browser SC",
+            "match": {
+              "location": "cucumberFunctionality.simpleCucumberFun.MidtransStepDefinition.user_closes_the_chrome_browser_SC()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Midtrans Feature",
+    "description": "",
+    "id": "midtrans-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/cucumberFunctionality/simpleCucumberFun/midtransFeatureFile.feature",
+    "tags": []
+  }
+]

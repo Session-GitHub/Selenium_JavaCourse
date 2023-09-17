@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Execution of Classes Suite" parallel="classes" thread-count="4">
+    <test name="Parallel Execution of Classes Tests">
+        <classes>
+            <class name="testNGPrograms.parallelTestExecution.GoogleTest"/>
+            <class name="testNGPrograms.parallelTestExecution.YoutubeTest"/>
+            <class name="testNGPrograms.parallelTestExecution.ExampleTest"/>
+            <class name="testNGPrograms.parallelTestExecution.MidtransTest"/>
+        </classes>
+    </test>
+</suite>

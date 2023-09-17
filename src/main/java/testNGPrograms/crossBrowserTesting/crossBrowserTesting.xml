@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Testing Suite">
+
+    <test verbose="2" preserve-order="true" name="Cross Browser Testing Test">
+        <classes>
+
+            <class name="testNGPrograms.crossBrowserTesting.MidtransChrome"/>
+            <class name="testNGPrograms.crossBrowserTesting.MidtransFirefox"/>
+            <class name="testNGPrograms.crossBrowserTesting.MidtransMSEdge"/>
+
+        </classes>
+    </test>
+
+</suite>

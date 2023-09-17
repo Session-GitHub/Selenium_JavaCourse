@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [Parallel Execution of Classes Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Parallel Execution of Classes Tests(failed)">
+    <classes>
+      <class name="testNGPrograms.parallelTestExecution.ExampleTest">
+        <methods>
+          <include name="clickOnAbout"/>
+          <include name="verifyText"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNGPrograms.parallelTestExecution.ExampleTest -->
+    </classes>
+  </test> <!-- Parallel Execution of Classes Tests(failed) -->
+</suite> <!-- Failed suite [Parallel Execution of Classes Suite] -->

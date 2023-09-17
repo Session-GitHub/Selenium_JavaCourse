@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="41.806">
+    <testcase classname="Midtrans Feature" name="Enter credentials" time="41.344">
+        <system-out>
+            <![CDATA[Given user initializing the chrome browser SC...............................passed
+When user navigate to "https://demo.midtrans.com" SC........................passed
+Then user verify the logo SC................................................passed
+Then user clicks on BUY NOW Button SC.......................................passed
+Then user verify shopping cart popup SC.....................................passed
+Then user clear the name text field and enter the name as "Piyush Verma" SC.passed
+Then user clear the email text field and enter the email as "piyush@demo.com" SC.passed
+Then user clear the phoneNo text field and enter the phoneNo as "1234567890" SC.passed
+Then user clear the city city text field and enter the city as "Meerut" SC..passed
+Then user clear the address text field and enter the address as "Shastri Nagar, Meerut" SC.passed
+Then user clear the pincode text fields and enter the pincode as "3482422" SC.passed
+Then user closes the chrome browser SC......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
